@@ -1,0 +1,30 @@
+body {
+  background-color: #9fcbee;
+  
+}
+#survey-form {
+  background-color: #6497bf;
+}
+
+.box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: left;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+#name {
+    margin: 200px;
+    
+}

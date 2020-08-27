@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/survey.css">
+</head> 
+
+<body>
+    <h1 id="title">Linyva Language School Survey Form</h1>
+    <p> <h3 id="description"><em> Thank you for taking the time to help us improve our school</em></h3></p>
+
+    <form id="survey-form" class="box">
+    <p><h1 id="name-label">Name</h1></p>
+    <p><input type="Name" id="Name" placeholder="Enter your name"></p>
+
+    <p><h1 id="email-label">Email</h1></p>
+    <p><input type="email" id="email" placeholder="Enter your email"></p>
+
+    <p><h1 id="number-label">Age</h1></p>
+    <p><input type="number" id="number" min="10" max="60" placeholder="Age"></p> 
+
+    <p><h1>Which option best describes your current role?</h1></p>
+    <p><Select name="Select your current role" placeholder="Select your current role" id="dropdown">  
+    <option value="" disabled selected>Select your option</option>
+    <option value="student">Student</option>
+    <option value="full time job">Full time job</option>
+    <option value="prefer not to say">Prefer not to say</option>
+    <option value="other">Other</option>
+     </select></p>
+    <p><h1>Would you recommend Linyva Language School to a friend?</h1></p>
+    <p><label for definitely>
+    <input id="definitely" value="definitely" type="radio" name="definitely-Maybe-Not sure">Definitely    
+    </label></p>
+    <p><label for maybe>
+    <input id="maybe" value="maybe" type="radio" name="definitely-Maybe-Not sure">Maybe   
+    </label></p>
+    <p><label for not sure>
+    <input id="not sure" value="not sure" type="radio" name="definitely-Maybe-Not sure">Not sure  
+    </label></p>
+    <p><h1>What is your favorite feature of Linyva Language School?</h1></p>
+    <p><label><input type="checkbox" name="featuate" value="Community"> Community</label></p>
+    <p><label><input type="checkbox" name="featuate" value="Teachers"> Teachers</label></p>
+    <p><label><input type="checkbox" name="featuate" value="Approach"> Approach</label></p>
+    <p><label><input type="checkbox" name="featuate" value="Programm"> Programm</label></p>
+    <p><label><input type="checkbox" name="featuate" value="Results"> Results</label></p>
+
+    <p><h1>Share your comments and suggestions with us</h1></p>
+    <textarea name="comment">Enter your comment here...</textarea>
+
+    <p><button type="submit" id="submit">This button submits the form</button></p>
+    </form>
+</body>
+</html>
